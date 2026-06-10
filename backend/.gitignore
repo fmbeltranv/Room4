@@ -1,0 +1,84 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FastAPI / Uvicorn
+uvicorn.log
+
+# SQLite (si la usas localmente)
+*.db
+*.sqlite3
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# PyCharm
+*.iml
+
+# Coverage
+coverage.xml
+
+# UV
+.python-version
+
+# Ruff
+.ruff_cache/
+
+# Pyright
+.pyright/
+
+# Hatch
+.hatch/
+
+# PDM
+.pdm-python
+.pdm-build/
+
+# UV lock (depende de tu estrategia)
+# Si es aplicación, normalmente SÍ se versiona:
+# uv.lock
+
+# Si NO quieres versionarlo:
+# uv.lock
